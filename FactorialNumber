@@ -9,9 +9,8 @@ public class TestClass {
 		
 		while(temp !=0) {
 			int rem = 1;
-			  reminder = temp%10;
-			  
-			  //(reminder*reminder*reminder);
+			  reminder = temp%10; 
+			   
 			 for(int i =0 ; i< (numberToCheck+"").length();i++ )
 			 {
 				 rem=(rem * reminder);
